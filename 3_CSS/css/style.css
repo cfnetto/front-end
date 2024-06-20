@@ -1,0 +1,513 @@
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/* Comentários em CSS */
+
+
+/* Classes */
+
+.paragraph {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+
+/* ID */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titlex{
+    border-bottom: 2px solid blue;
+}
+
+#titulo{
+    border-bottom: 2px solid green;
+}
+
+/* Nome de cores */
+.color-name{
+    color: rgb(63, 25, 177);
+}
+
+/* HEX */
+.hex{
+    color: #98c537;
+}
+
+.hex2{
+    color: #340195;
+}
+
+
+/* Aprofundado em HEX */
+
+.simple-hex{
+    color: #333;
+}
+
+.simple-hex{
+    color: #a5f;
+}
+
+
+/* RGB */
+.rgb{
+    color: rgb(255,0,0);
+}
+
+.mixed-rgb{
+    color: rgb(200,150,120);
+}
+
+
+/* RGBA */
+.rgba{
+    color: rgba(255,100,200, 0.3);
+}
+
+
+/* HSL */
+.hsl{
+    color: hsl(100, 20%, 50%);
+}
+
+.hsl2{
+    color: hsl(30, 95%, 30%);
+}
+
+
+/* Background color */
+.bg{
+    background-color: #000;
+    color: #ef0;
+}
+
+.bg-2{
+    background-color: #f00;
+    color: #00f;
+}
+
+
+/* Background opacity */
+.bg-opacity{
+    background-color: #0f0;
+    opacity: 20%;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #000;
+}
+
+/* RGBA com opacdidade */
+.rgba-opacity{
+    background-color: rgba(90, 20, 20, 0.2);
+    color: #000;
+}
+
+/* BG Image */
+.bg-image{
+    background-image: url('../img/nature.jpg');
+    padding: 10px;
+    color: #fff;
+}
+
+/* Centralizando BG */
+.not-centered-bg, .centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url('../img/bridge.jpg');
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Altura e Largura */
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: #f00;
+}
+
+.height-width2{
+    height: 300px;
+    background-color: #333;
+}
+
+.without-padding,
+.padding{
+    background-color: #000;
+    color: #fff;
+}
+
+.padding{
+    background-color: #444;
+    padding: 20px;
+}
+
+
+/* Padding Individual */
+
+.padding-individual{
+    background-color: #0000;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+/* Shorhand Padding */
+
+.shorthand-padding{
+    background-color: #333;
+    padding: 6px, 12x, 18px, 24px;
+}
+
+.shorthand-padding2{
+    background-color: #555;
+    padding: 10px, 20px;
+}
+
+
+/* Padding com widht */
+
+.wihtout-border-box{
+    background-color: #f00;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+
+/* Borda */
+.borda{
+    border: 5px solid #f00;
+    padding: 10px;
+
+}
+
+.borda2{
+    border: 2px dotted #f31999;
+    padding: 10px;
+}
+
+
+/* Borda Individual */
+
+.border-left{
+    border-left: 30px solid #ff0;
+    background-color: #000;
+    padding: 25px;
+}
+
+.border-bottom{
+    border-bottom: 15px double #f31999;
+    background-color: #222;
+    padding: 20pxS;
+}
+
+
+/* Borda Areedondada */
+
+.rounded-p{
+    border: 5px solid #00f;
+    background-color: #ff0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p2{
+    background-color: #00f;
+    padding: 15px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+
+/* Margem */
+
+.margem{
+    margin: 10px;
+    background-color: #000;
+}
+
+.margem-top{
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.margem-shorthand{
+    margin: 5px 10px 15px 20px;
+    background-color: #333;
+}
+
+
+/* Box model */
+
+.box-model{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #0f0;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+}
+
+/* Text aligned */
+.text-aligned{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid #f00;
+}
+
+
+/* Text decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: #f00;
+}
+
+/* Text transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+
+/* letter spacing */
+.spacing {
+    letter-spacing: 5px;
+}
+
+
+/* Fontes */
+.serfi {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+
+/* Font style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+
+/* Font Weight */
+
+.bold, .bolder, .thin {
+    font-family: helvetica;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+
+/* Font size */
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+
+/* Display */
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #222;
+    display: block;
+    margin: 10px;
+}
+
+.invisible {
+    display: none;
+}
+
+
+/* Position Static */
+.static {
+    position: static;
+    background-color: #391;
+}
+
+
+/* Relative */
+.relative {
+    position: relative;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+} 
+
+
+/* Absolute */
+.absolute {
+    position: absolute;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+} 
+
+
+/* Relative and absolute */
+.relative-container {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #f00;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1, .absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/* Position fixed */
+.fixed {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+    position: fixed;     
+    top: 50px;
+    right: 100px;
+}
+
+
+/* Position fixed */
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 254, 57);
+    border: #00f;
+    position: sticky;   
+    top: 50px;
+    right: 100px;    
+}
+
+
+
+/* Z-index */
+.absolute-3, 
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index: 1;
+}
+
+
+

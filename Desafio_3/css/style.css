@@ -1,0 +1,15 @@
+#regras-box{
+    background-color: #e5ff00;
+    margin: 10px;
+    border: 5px dotted #f00;
+    border-radius: 25px;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    outline: 5px dotted #f00;
+}
+
+.texto{
+    color: #f00;
+    outline: 5px dotted #f00;
+}
